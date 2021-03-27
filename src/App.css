@@ -1,38 +1,74 @@
-.App {
+
+
+.container{
+  background-image: url(./images/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 96rem;
+  color: aliceblue;
   text-align: center;
 }
+.titles{
+    color: aliceblue;
+    text-align: center;
+}
+.form{ 
+     text-align:center;
+     
+}
+.form-group{
+    border-radius: 18px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.footer{
+     position:absolute;
+     left:0;
+     bottom:0;
+     right:0;
+}
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+    
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  a.social:hover {
+    transform: translateY(-2px);
   }
-  to {
-    transform: rotate(360deg);
+  a.linkedin {
+    color: #1707f8;
   }
-}
+  
+  a.facebook {
+    color: hsl(234, 90%, 48%)
+  }
+  
+  a.twitter {
+    color: #0c0e99;
+  }
+  
+  a.instagram {
+    color: rgb(230, 10, 10);
+  }
+  a.github{
+    color: black;
+  }
+  .copy{
+     text-align: left;
+     position:absolute;
+     bottom:0px;
+  }
+  .apps{
+      text-align: right;
+  }
+  
+  .user_name{
+    font-family: 'Sacramento',cursive;
+    text-transform: none;
+    font-weight: 400;
+    color: #ebf1f1 !important;
+    font-size: 2em !important;
+  }
+  
